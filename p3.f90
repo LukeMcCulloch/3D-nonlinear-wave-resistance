@@ -154,7 +154,7 @@ PROGRAM p3
   
 
 
-  WRITE(6,'(A)') 'Linear Free Surface Panel Method, v @.0, 4-17-10, Main Program, Luke McCulloch '
+  WRITE(6,'(A)') 'Nonlinear Free Surface Panel Method, v @.0, 4-17-10, Main Program, Luke McCulloch '
 
   ! Count the number command line arguments (actually Fortran 2003)
   narg = command_argument_count()
@@ -171,7 +171,7 @@ PROGRAM p3
      READ(str_Iter,*) nlIter
   ELSE
      WRITE(6,'(A)') ' Output file name and/or Froude number and/or iteration count missing!'
-     WRITE(6,'(A)') ' Usage:> ./p3  <inputfile> <outputfile> <FroudeNumber> <ItNumber> '
+     WRITE(6,'(A)') ' Usage:> ./flowsolve  <inputfile> <outputfile> <FroudeNumber> <ItNumber> '
      STOP
   ENDIF
 

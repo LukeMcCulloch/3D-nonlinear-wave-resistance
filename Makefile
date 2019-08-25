@@ -18,7 +18,7 @@ SOURCES = precise.f90 \
 	p3.f90
 
 ## Define name of main program
-PROGRAM = p3
+PROGRAM = flowsolve
 
 # Compiler
 FF = gfortran
