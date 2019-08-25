@@ -47,11 +47,11 @@ CONTAINS
      read(10,'(AAAAA)') title
      read(10,*) i,j
      read(10,*) npanels, nfspanels, ntransompanels, npoints
-     read(10,*) deltax
-     read(10,*) nfsl
-     read(10,*) nfst
-     read(10,*) ntransoml
-     read(10,*) ntransomt
+     read(10,*) deltax !! shift the collocation (field) points deltax - see Raven 1996/1998
+     read(10,*) nfsl ! 
+     read(10,*) nfst !number of free surface transom panels
+     read(10,*) ntransoml !number of transom  panels in a longitudinal row
+     read(10,*) ntransomt ! number transom panels in a transverse row 
      read(10,*) nhpl
      ALLOCATE( ldx(nfsl) )
      ALLOCATE( panels(4,npanels+nfspanels+ntransompanels) )
