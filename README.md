@@ -24,7 +24,13 @@ The included makefile builds the code on Linux with gfortran.
 
 Run the an included offshore supply vessel hull example with
 
-$ ./flowsolve ./hulls/OSV_Dec2015 test1.out .2
+$ ./flowsolve ./hulls/OSV_Dec2015 AnyName.out .2 5
+ 
+ where AnyName names an output file.  (Though most output goes to VTK paraview files.)
+ 
+ .2 is the Froude number
+ 
+ 5 is the number of iterations allowed.  (I think this might not do anything right now.)
 
 ./flowsolve runs the executable
 fifi.dat selects the included panel input file of the wigely hull
