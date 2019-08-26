@@ -3,7 +3,9 @@
 
 ## This code is not finished!
 
-Things it needs:
+But there is a lot of good stuff.  Most everything is there.
+
+Here's what I remember it still needing:
 
  * update the hull mesh properly when the free surface changes
  * It's been 6 years since I worked on this.  I don't think it converged well before I had to stop work on it.  
